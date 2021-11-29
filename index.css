@@ -1,0 +1,227 @@
+html{
+	font-family:'Aleo',serif ;
+}
+
+/*Navigation*/
+header .menu a{
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+	padding: 1rem 5rem;
+	display: inline-block;
+}
+
+header .navigation a:hover {
+	text-decoration: underline;
+}
+
+.navigation{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		background-image: url(css/hold.png);
+		height: 260px;
+		width: 100%;
+		}
+
+.menu {
+	display: inline-block;
+}
+
+.hegyek img{
+	width: 100%;
+}
+
+
+
+body{
+
+	background-image: linear-gradient(#466e92,black);
+	height: auto;
+	min-height: 768px;
+}
+p{
+	color: white;
+	font-size: 1.2em;
+}
+
+
+/*Home zöveg*/
+.hello {
+	color: white;
+	font-size: 5em;
+	font-weight: bold;
+	}
+
+.welcome {
+	text-align: center;
+	margin: 100px;
+}
+
+/*Csillagok*/
+.csillag {
+		margin: 2rem auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+}
+
+/*Rólam*/
+h1 {
+	font-size: 2rem;
+	text-decoration: bold;
+	text-align: center;
+	color: white;
+}
+.bevezetes p {
+	text-align: center;
+}
+h2 {
+	font-size: 1.5rem;
+	text-decoration: bold;
+	color: white;
+	text-align: center;
+}
+
+.bevezetes div {
+	width: 100%;
+}
+
+.sor {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-color: lightblue;
+	border: solid white;
+	border-radius: 10px;
+	padding: 1%;
+	margin: 2.5rem;
+	max-width: 40%;
+}
+
+.sor img{
+	display: block;
+	max-width: 100%;
+	float: center;
+}
+
+.sor:hover {
+	box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+}
+
+/*Munkáim*/
+.portfolio {
+	width: 40%;
+	min-width: 380px;
+	padding: 5px;
+	margin: 2.5rem;
+	border: solid white;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: lightblue;
+}
+
+.bolygok{
+	display: inline-block;
+	justify-content: center;
+	vertical-align: middle;
+	flex-wrap: wrap;
+	width: 40%;
+}
+.bolygok img{
+	display: block;
+	width: 100%;
+	float: center;
+}
+
+.portfolio img{
+	display: block;
+	max-width: 100%;
+	float: center;
+}
+
+.portfolio:hover{
+	box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+}
+
+.portfolio1 {
+	text-align: center;
+	margin: 2rem auto;
+}
+
+/*Dokumentáció*/
+.szeles img{
+	width: 90%;
+	display: block;
+	margin: 2rem auto;
+	float: center;
+}
+.szeles {
+	width: 90%;
+	border: solid white;
+	border-radius: 10px;
+	background: lightblue;
+	padding: 1rem;
+	margin: 2rem auto;
+}
+}
+
+.kepek img {
+	width: 90%;
+	display: block;
+	float: center;
+}
+
+.kepek {
+	width: 40%;
+	min-width: 400px;
+	padding: 5px;
+	margin: 2.5rem;
+	border: solid white;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: lightblue;
+}
+
+.leiras {
+	width: 90%;
+	padding: 1rem;
+	margin: 2rem auto;
+}
+.leiras p {
+	text-align: center;
+}
+
+.kepek:hover {
+		box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+}
+.szeles:hover{
+		box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-webkit-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+-moz-box-shadow: 0px 0px 24px 0px rgba(173,216,230,0.75);
+}
+
+.cat {
+	display: inline-block;
+	justify-content: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.cat img{
+	display: block;
+	height: 100%;
+	margin: 1rem auto;
+}
